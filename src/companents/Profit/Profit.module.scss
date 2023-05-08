@@ -1,0 +1,57 @@
+.profit {
+  width: 90%;
+  margin: 0 auto;
+  > p:first-of-type {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 17px;
+    > span {
+      color: #9060FF;
+    }
+  }
+  > p:last-of-type {
+    margin-bottom: 90px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #7A7A7A;
+  }
+  > div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 125px;
+    > img {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 950px){
+  .profit {
+    > div {
+      gap: 50px;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .profit {
+    > div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .profit {
+    > div {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

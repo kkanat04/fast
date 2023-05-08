@@ -1,0 +1,40 @@
+.platform {
+  width: 90%;
+  margin: 0 auto;
+  padding: 160px 0;
+  > p {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #363843;
+  }
+  > div {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 33%;
+      > p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #7A7A7A;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .platform {
+    > div {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+  }
+}

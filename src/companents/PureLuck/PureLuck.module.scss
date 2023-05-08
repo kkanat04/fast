@@ -1,0 +1,54 @@
+.pureLuck {
+  width: 100%;
+  background-color: #1D0E40;
+}
+
+.col {
+  width: 90%;
+  margin: 0 auto;
+  padding: 125px 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
+  > img {
+    width: 50%;
+  }
+
+  > div {
+    > p:first-of-type {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 28px;
+      color: #fff;
+    }
+
+    > p:nth-child(2) {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 14px;
+
+      > span {
+        color: #9060FF;
+      }
+    }
+
+    > p:last-of-type {
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .col {
+    > img {
+      width: 100%;
+    }
+    flex-direction: column;
+  }
+}

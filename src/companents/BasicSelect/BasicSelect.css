@@ -1,0 +1,59 @@
+.select_img {
+    width: 25px;
+    height: 25px;
+}
+
+.css-13cymwt-control {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.css-t3ipsp-control {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+
+.css-1u9des2-indicatorSeparator {
+    display: none !important;
+}
+
+.css-1f43avz-a11yText-A11yText {
+    display: none !important;
+}
+
+
+
+.css-1nmdiq5-menu {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.css-tr4s17-option {
+    background-color: transparent !important;
+    border: none !important;
+}
+.css-tr4s17-option {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.css-t3ipsp-control {
+    box-shadow: none !important;
+}
+
+.css-tr4s17-option {
+    padding: 8px 10px !important;
+}
+
+@media screen and (max-width: 640px){
+    .css-1xc3v61-indicatorContainer {
+        display: none !important;
+    }
+    .css-15lsz6c-indicatorContainer {
+        display: none !important;
+    }
+}
