@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63d88df-f0ba-483f-9d48-91671a86822f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/companents/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/companents/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/companents/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/companents/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/companents/Info/Info.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/companents/Info/Info.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/kanatkylychbekov/Desktop/AlexProject/fast-landing/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/kanatkylychbekov/Desktop/eo_fast/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +106,7 @@
       <workItem from="1683215385626" duration="14270000" />
       <workItem from="1683292855636" duration="1226000" />
       <workItem from="1683384056740" duration="11943000" />
-      <workItem from="1683565526167" duration="113000" />
+      <workItem from="1683565526167" duration="775000" />
     </task>
     <servers />
   </component>

@@ -15,10 +15,15 @@ header {
   align-items: center;
   justify-content: space-between;
 
+  > img {
+    cursor: pointer;
+  }
+
   > div {
     display: flex;
     align-items: center;
     gap: 20px;
+
     > button {
       display: flex;
       justify-content: center;
@@ -37,19 +42,25 @@ header {
 @media screen and (max-width: 640px) {
   .col {
     gap: 10px;
+    width: 90%;
+
     > div {
       gap: 0;
     }
+
     > img {
       width: 60%;
     }
+
     > div > button {
       width: 50px;
       border: none;
+
       > img {
         width: 25px;
         height: 25px;
       }
+
       > p {
         display: none;
       }

@@ -21,6 +21,7 @@
 .col {
   width: 80%;
   margin: 0 auto;
+
   > button {
     color: #fff;
     background: #9060FF;
@@ -40,6 +41,12 @@
 @media screen and (max-width: 750px) {
   .info {
     height: 100vh;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .col {
+    width: 90%;
   }
 }
 
